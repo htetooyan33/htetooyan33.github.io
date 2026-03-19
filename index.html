@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Htet Oo Yan — AI/ML Researcher</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Mono:wght@300;400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ══════════════════════════════════ NAVIGATION -->
+  <nav id="navbar">
+    <div class="nav-logo">Portfolio</div>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#research">Research</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ══════════════════════════════════ HERO -->
+  <section id="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-content">
+
+      <!--
+        HOW TO ADD YOUR PHOTO:
+        Step 1 — Create folder named "assets" next to index.html
+        Step 2 — Copy your photo into that folder
+        Step 3 — Rename your photo to "profile.jpg"
+                  OR change src="assets/profile.jpg" below to match your file name
+        If no photo found, a gold letter avatar shows automatically (fallback)
+      -->
+      <div class="hero-photo-wrapper">
+        <img
+          src="assets/htet-profile.jpg.jpeg"
+          alt="Htet Oo Yan"
+          class="hero-photo"
+          onerror="this.src='https://ui-avatars.com/api/?name=Htet+Oo+Yan&size=300&background=1a1a2e&color=c9a96e&bold=true&format=png'"
+        />
+      </div>
+
+      <div class="hero-text">
+        <p class="hero-tag">MSc CS Applicant &middot; AI &amp; Machine Learning</p>
+        <h1 class="hero-name">Htet Oo Yan</h1>
+        <p class="hero-subtitle">
+          Researcher in Natural Language Processing &amp; Predictive Analytics<br />
+          <span class="hero-location">&#128205; Yangon, Myanmar</span>
+        </p>
+        <div class="hero-cta">
+          <a href="#research" class="btn btn-primary">View Research</a>
+          <a href="assets/final resume letter for master.pdf" class="btn btn-outline" download>Download CV</a>
+          <a href="https://github.com/htetooyan33" class="btn btn-ghost" target="_blank" rel="noopener">GitHub &#8599;</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-badge hero-badge--1">94.44% Accuracy</div>
+    <div class="hero-badge hero-badge--2">Published &middot; JASTT</div>
+    <div class="hero-badge hero-badge--3">Patent &middot; IoT</div>
+  </section>
+
+  <!-- ══════════════════════════════════ ABOUT -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I am an undergraduate researcher in Artificial Intelligence and Machine
+            Learning at Marwadi University, India, currently completing my Bachelor
+            of Technology in Information Technology (CGPA 8.43/10). My work sits at
+            the intersection of <em>Natural Language Processing</em>,
+            <em>Computer Vision</em>, and <em>Predictive Analytics</em>.
+          </p>
+          <p>
+            I have authored a published journal paper achieving <strong>94.44% accuracy</strong>
+            in clickbait detection, hold a co-inventorship on a filed patent for an
+            IoT-based smart fungi detection system, and am actively developing an
+            AI-enhanced academic retention model using gradient boosting techniques.
+          </p>
+          <p>
+            I am seeking a <strong>thesis-based MSc in Computer Science</strong> with
+            a focus on AI/ML, where I can contribute to and grow through rigorous
+            academic research under expert supervision.
+          </p>
+        </div>
+        <div class="about-stats">
+          <div class="stat-card">
+            <span class="stat-num">8.43</span>
+            <span class="stat-label">CGPA / 10</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">2</span>
+            <span class="stat-label">Publications / Patents</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">3+</span>
+            <span class="stat-label">AI Projects</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">518</span>
+            <span class="stat-label">Matriculation / 600</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════ EDUCATION -->
+  <section id="education" class="section section--alt">
+    <div class="container">
+      <h2 class="section-title">Education</h2>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-year">2022 &ndash; 2026</div>
+            <h3>Bachelor of Technology &middot; Information Technology</h3>
+            <p class="timeline-institution">Marwadi University, Rajkot, India</p>
+            <p class="timeline-detail">CGPA: <strong>8.43 / 10</strong></p>
+            <div class="coursework-tags">
+              <span>Artificial Intelligence</span>
+              <span>Machine Learning</span>
+              <span>Deep Learning</span>
+              <span>Data Structures</span>
+              <span>Computer Networks</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-year">Myanmar</div>
+            <h3>Matriculation Examination</h3>
+            <p class="timeline-institution">Ministry of Education, Myanmar</p>
+            <p class="timeline-detail">Score: <strong>518 / 600</strong> &mdash; Five Distinctions</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════ RESEARCH & PUBLICATIONS -->
+  <section id="research" class="section">
+    <div class="container">
+      <h2 class="section-title">Research &amp; Publications</h2>
+      <div class="research-grid">
+
+        <div class="research-card research-card--published">
+          <div class="research-badge badge--green">Published</div>
+          <h3>Text Classification for Clickbait Detection</h3>
+          <p class="research-venue">Journal of Applied Science, Technology and Trade (JASTT)</p>
+          <p class="research-desc">
+            Developed an NLP pipeline using Naive Bayes and Logistic Regression with
+            CountVectorizer feature extraction. Achieved <strong>94.44% accuracy</strong>
+            on the clickbait detection benchmark, demonstrating the effectiveness of
+            classical ML techniques for short-text classification.
+          </p>
+          <div class="research-tags">
+            <span>NLP</span>
+            <span>Naive Bayes</span>
+            <span>Logistic Regression</span>
+            <span>CountVectorizer</span>
+            <span>Text Classification</span>
+          </div>
+          <!-- Put your paper PDF in the assets/ folder and name it research.pdf -->
+          <a href="assets/clickbaitCertificate.pdf" class="dl-btn dl-btn--green" download>&#8595; Download Paper (PDF)</a>
+        </div>
+
+        <div class="research-card research-card--patent">
+          <div class="research-badge badge--gold">Patent Filed</div>
+          <h3>IoT-Based Smart Fungi Detection System</h3>
+          <p class="research-venue">Application No: <code>202421033243</code> &middot; Status: Awaiting Examination</p>
+          <p class="research-desc">
+            Co-invented an intelligent sensor-driven system leveraging IoT hardware
+            and computer vision to detect fungal contamination in real time. Integrates
+            edge inference with cloud-based monitoring for agricultural and food-safety
+            applications.
+          </p>
+          <div class="research-tags">
+            <span>IoT</span>
+            <span>Computer Vision</span>
+            <span>Edge AI</span>
+            <span>Co-Inventor</span>
+          </div>
+          <!-- Put your patent PDF in the assets/ folder and name it patent.pdf -->
+          <a href="assets/Paptent Publication Proof.pdf" class="dl-btn dl-btn--gold" download>&#8595; Download Patent (PDF)</a>
+        </div>
+
+        <div class="research-card research-card--progress">
+          <div class="research-badge badge--blue">In Progress</div>
+          <h3>AI-Enhanced Academic Retention System</h3>
+          <p class="research-venue">Conference / Journal Submission Pending</p>
+          <p class="research-desc">
+            Designing a student dropout-risk prediction framework using Gradient
+            Boosting models on tabular academic data. Features include engagement
+            metrics, attendance patterns, and assessment scores to generate
+            early-warning signals for institutional interventions.
+          </p>
+          <div class="research-tags">
+            <span>Gradient Boosting</span>
+            <span>Predictive Analytics</span>
+            <span>EdTech</span>
+            <span>Scikit-learn</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════ PROJECTS -->
+  <section id="projects" class="section section--alt">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-number">01</div>
+          <h3>Visual AI Conversational Assistant</h3>
+          <p>
+            A multimodal AI system combining computer vision and natural language
+            processing. Users interact via a Gradio interface powered by the Gemini
+            API, enabling visual question answering and image-contextual dialogue.
+          </p>
+          <div class="project-tags">
+            <span>Gemini API</span>
+            <span>Gradio</span>
+            <span>CV + NLP</span>
+            <span>Multimodal AI</span>
+          </div>
+          <a href="https://github.com/htetooyan33/visual-ai-conversational-assistant" class="project-link" target="_blank" rel="noopener">View on GitHub &#8599;</a>
+        </div>
+
+        <div class="project-card">
+          <div class="project-number">02</div>
+          <h3>AI-Enhanced Academic Retention System</h3>
+          <p>
+            An intelligent early-warning platform that predicts student dropout risk
+            using structured academic data. Gradient Boosting classifiers surface
+            at-risk students for targeted support interventions.
+          </p>
+          <div class="project-tags">
+            <span>Python</span>
+            <span>Scikit-learn</span>
+            <span>Gradient Boosting</span>
+            <span>Data Analytics</span>
+          </div>
+          <a href="https://github.com/htetooyan33/dropout-predictor" class="project-link" target="_blank" rel="noopener">View on GitHub &#8599;</a>
+        </div>
+
+        <div class="project-card">
+          <div class="project-number">03</div>
+          <h3>Clickbait Detection via NLP</h3>
+          <p>
+            End-to-end NLP pipeline for binary text classification. Implements
+            preprocessing, vectorization, and multiple classifiers achieving
+            94.44% accuracy &mdash; the basis for the published JASTT research paper.
+          </p>
+          <div class="project-tags">
+            <span>NLP</span>
+            <span>Naive Bayes</span>
+            <span>CountVectorizer</span>
+            <span>Pandas</span>
+          </div>
+          <a href="https://github.com/htetooyan33/clickbait-detection" class="project-link" target="_blank" rel="noopener">View on GitHub &#8599;</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════ SKILLS -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="skills-grid">
+
+        <div class="skill-group">
+          <h4>Languages</h4>
+          <ul>
+            <li>Python</li>
+            <li>C++</li>
+            <li>Java</li>
+            <li>JavaScript</li>
+          </ul>
+        </div>
+
+        <div class="skill-group">
+          <h4>ML / DL Frameworks</h4>
+          <ul>
+            <li>TensorFlow</li>
+            <li>PyTorch</li>
+            <li>Scikit-learn</li>
+            <li>Transformers (HuggingFace)</li>
+            <li>YOLO</li>
+          </ul>
+        </div>
+
+        <div class="skill-group">
+          <h4>Data &amp; NLP</h4>
+          <ul>
+            <li>Pandas</li>
+            <li>NumPy</li>
+            <li>NLTK / spaCy</li>
+            <li>CountVectorizer</li>
+          </ul>
+        </div>
+
+        <div class="skill-group">
+          <h4>Tools &amp; Platforms</h4>
+          <ul>
+            <li>AWS</li>
+            <li>GitHub</li>
+            <li>Google Colab</li>
+            <li>Gradio</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════ CERTIFICATIONS -->
+  <section id="certifications" class="section section--alt">
+    <div class="container">
+      <h2 class="section-title">Certifications &amp; Achievements</h2>
+      <div class="cert-grid">
+        <div class="cert-card">
+          <div class="cert-icon">&#9729;&#65039;</div>
+          <h4>AWS Cloud Computing</h4>
+          <p>Amazon Web Services</p>
+        </div>
+        <div class="cert-card">
+          <div class="cert-icon">&#128274;</div>
+          <h4>NPTEL Cryptography</h4>
+          <p>IIT &mdash; National Programme on Technology Enhanced Learning</p>
+        </div>
+        <div class="cert-card">
+          <div class="cert-icon">&#127760;</div>
+          <h4>Web Horizons Event</h4>
+          <p>Technical Event Participation</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════ RESEARCH INTERESTS -->
+  <section id="interests" class="section">
+    <div class="container">
+      <h2 class="section-title">Research Interests</h2>
+      <div class="interests-list">
+
+        <div class="interest-item">
+          <span class="interest-dot"></span>
+          <div>
+            <h4>Natural Language Processing</h4>
+            <p>Text classification, semantic understanding, large language models, and low-resource NLP for Southeast Asian languages.</p>
+          </div>
+        </div>
+
+        <div class="interest-item">
+          <span class="interest-dot"></span>
+          <div>
+            <h4>Predictive Machine Learning</h4>
+            <p>Gradient boosting, ensemble methods, and tabular ML for real-world decision support in EdTech and healthcare.</p>
+          </div>
+        </div>
+
+        <div class="interest-item">
+          <span class="interest-dot"></span>
+          <div>
+            <h4>Multimodal AI Systems</h4>
+            <p>Integration of vision and language models for grounded understanding and interactive AI assistants.</p>
+          </div>
+        </div>
+
+        <div class="interest-item">
+          <span class="interest-dot"></span>
+          <div>
+            <h4>AI for Social Good</h4>
+            <p>Deploying intelligent systems for educational access, agricultural monitoring, and misinformation detection.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════ CONTACT -->
+  <section id="contact" class="section section--alt">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+      <p class="contact-intro">
+        I welcome correspondence from research supervisors, graduate admissions
+        teams, and collaborators interested in AI/ML research.
+      </p>
+      <div class="contact-links">
+        <a href="mailto:marcushtet2003@gmail.com" class="contact-btn">
+          &#9993; marcushtet2003@gmail.com
+        </a>
+        <a href="tel:+959795713020" class="contact-btn contact-btn--outline">
+          &#128222; +95 9795713020
+        </a>
+        <a href="https://github.com/htetooyan33" class="contact-btn contact-btn--outline" target="_blank" rel="noopener">
+          GitHub &#8599;
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════ FOOTER -->
+  <footer>
+    <p>&#169; 2025 Htet Oo Yan &middot; Built for academic applications</p>
+    <p class="footer-note">Yangon, Myanmar &middot; marcushtet2003@gmail.com</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
